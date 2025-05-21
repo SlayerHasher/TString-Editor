@@ -1,6 +1,10 @@
 # 4Story-TString-Editor
 This is editor for 4Story (MMORPG) game.
 
-You can edit/add/delete all strings with this is editor.
+You can edit/add/delete (translate) strings in tcd and save.
 
 Good Luck Have Fun =)
+
+Link for last release: https://github.com/SlayerHasher/TString-Editor/releases/download/Release/TString.Editor.exe
+
+![TString](https://private-user-images.githubusercontent.com/84233199/446227200-385e1cd3-214b-4a56-a048-96d920443903.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc4NTI3NzcsIm5iZiI6MTc0Nzg1MjQ3NywicGF0aCI6Ii84NDIzMzE5OS80NDYyMjcyMDAtMzg1ZTFjZDMtMjE0Yi00YTU2LWEwNDgtOTZkOTIwNDQzOTAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTIxVDE4MzQzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNjMmNlZTljOWMwNWNiNzdkYWM4ZGVhYWE3YWNmN2M5Yzk3MTJmMTk4Y2QxZjdkODExODI2NzkwNWM5Yzg3NTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CuyR4fvKDrMIhKXtqFVhBo8c0c_sJmOsvU9aBl0OJSo)
