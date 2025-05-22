@@ -48,6 +48,8 @@
             this.SaveButton = new System.Windows.Forms.Button();
             this.OFD = new System.Windows.Forms.OpenFileDialog();
             this.SFD = new System.Windows.Forms.SaveFileDialog();
+            this.SeparatorToolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.ToolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.MenuStrip.SuspendLayout();
             this.StatusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -102,7 +104,9 @@
             // StatusStrip
             // 
             this.StatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CountToolStripStatusLabel});
+            this.CountToolStripStatusLabel,
+            this.SeparatorToolStripStatusLabel,
+            this.ToolStripStatusLabel});
             this.StatusStrip.Location = new System.Drawing.Point(0, 286);
             this.StatusStrip.Name = "StatusStrip";
             this.StatusStrip.Size = new System.Drawing.Size(482, 22);
@@ -117,6 +121,8 @@
             // 
             // SearchTextBox
             // 
+            this.SearchTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.SearchTextBox.Location = new System.Drawing.Point(12, 36);
             this.SearchTextBox.Name = "SearchTextBox";
             this.SearchTextBox.Size = new System.Drawing.Size(200, 20);
@@ -207,6 +213,17 @@
             // 
             this.OFD.FileName = "OFD";
             // 
+            // SeparatorToolStripStatusLabel
+            // 
+            this.SeparatorToolStripStatusLabel.Name = "SeparatorToolStripStatusLabel";
+            this.SeparatorToolStripStatusLabel.Size = new System.Drawing.Size(16, 17);
+            this.SeparatorToolStripStatusLabel.Text = " | ";
+            // 
+            // ToolStripStatusLabel
+            // 
+            this.ToolStripStatusLabel.Name = "ToolStripStatusLabel";
+            this.ToolStripStatusLabel.Size = new System.Drawing.Size(0, 17);
+            // 
             // TString_Editor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,6 +275,8 @@
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.OpenFileDialog OFD;
         private System.Windows.Forms.SaveFileDialog SFD;
+        private System.Windows.Forms.ToolStripStatusLabel SeparatorToolStripStatusLabel;
+        private System.Windows.Forms.ToolStripStatusLabel ToolStripStatusLabel;
     }
 }
 
